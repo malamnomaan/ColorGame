@@ -1,0 +1,75 @@
+body{
+    background: #111111;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.circle{
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    background: #27000b;
+    border-radius: 50%;
+    margin: 30px 8px ;
+    transition: background 1.0s;
+}
+
+#container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    background: steelblue;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px 0;
+    transition: background 1.2s;
+
+}
+
+#strip{
+    background: white;
+    height: 35px;
+    text-align: center;
+    color: black;
+}
+
+#message{
+    display: inline-block;
+    width: 25%;
+}
+
+.selected{
+    color: white;
+    background: steelblue;
+    border: none;
+}
+#display{
+    font-size: 150% ;
+}
+
+button{
+    outline: none;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 750px;
+    letter-spacing: 1.5px;
+    font-size: inherit;
+    transition: all 0.4s;
+}
+button:hover{
+    color: white;
+    background: steelblue;
+}
+
+#rules{
+    margin-left: 400px;
+}
